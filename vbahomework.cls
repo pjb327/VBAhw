@@ -104,7 +104,7 @@ Sub project2()
     ws.Cells(4, 17) = gTSV
     ws.Cells(2, 16) = gpiTicker
     ws.Cells(3, 16) = gpdTicker
-    ws.Cells(4, 16) = gstvTicker
+    ws.Cells(4, 16) = gtsvTicker
     ws.Range("K1:K" & lastRow).NumberFormat = "0.00%"
     ws.Range("Q2:Q3").NumberFormat = "0.00%"
     
